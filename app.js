@@ -34,7 +34,7 @@ function randomInsect() {
             main.removeChild(insect);
             scores++;
             score.innerText = 'Score: ' + scores;
-            // Do not call randomInsect() here
+            
         }
 
     });
